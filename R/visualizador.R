@@ -13,6 +13,8 @@
 #' @importFrom moments skewness kurtosis
 #' @export
 
+options(shiny.port = 8100)
+
 executa_visualizador_calibracao <- function(){
     `%>%` <- magrittr::`%>%`
     
