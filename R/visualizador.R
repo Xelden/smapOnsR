@@ -14,6 +14,7 @@
 #' @export
 
 options(shiny.port = 8100)
+options(shiny.host = "0.0.0.0")
 
 executa_visualizador_calibracao <- function(){
     `%>%` <- magrittr::`%>%`
